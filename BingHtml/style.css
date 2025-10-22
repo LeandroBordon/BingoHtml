@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(31, 31, 33);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    font-size: 300%;
+}
+
+input {
+    width: 110px;
+    height: 110px;
+    font-size: 100px;
+    right: 300px;
+}
+
+h2 {
+    color: white;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    /* Alinea verticalmente */
+    gap: 10px;
+    /* Espacio entre tabla e input */
+}
+
+
+table {
+    margin: 20px;
+    /* centra horizontalmente */
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+th {
+    border: 2px solid, white;
+}
+
+td {
+    color: white;
+    font-size: 500%;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+}
