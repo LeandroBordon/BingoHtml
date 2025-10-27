@@ -7,7 +7,7 @@ for (let i = 0; i < filas; i++) {
   const fila = document.createElement("tr");
   for (let j = 0; j < columnas; j++) {
     const celda = document.createElement("td");
-    h = h + 1;
+    h +=1;
     celda.dataset.valor = h;
     celda.textContent = "";
     celda.addEventListener("click", () => {
@@ -34,4 +34,5 @@ input.addEventListener("keydown", function (event) {
 
     input.value = ""; // limpiar input después de usarlo
   }
+
 });
